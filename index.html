@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+    <link rel="shortcut icon" href="/src/image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/src/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/Main.css">
+    <link rel="stylesheet" href="./src/css/Video.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+          <ul>
+            <li>
+              <div>
+                <ul class="main-menu">
+                  <li>
+                    Menu 1
+                    <ul class="sub-menu">
+                        <a href="/pages/videos/1/index.html">
+                            <li>고윤석</li>
+                        </a>
+                        <li>Sub Menu 2</li>
+                        <li>Sub Menu 3</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+                <a href="/index.html">
+                    <img
+                        src="/src/image/Logo.png"
+                        width="70px;"
+                        alt="IMJ Foundation"
+                    />
+                </a>
+            </li>
+            <li>
+              <Link to="/user">User</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    <div class="bodydefault">
+        <div class="Main_section">
+            <div class="searchbar"> <!--검색창-->
+                <input type="search" />
+            </div>
+            <div class="filter_menu">
+                <ul>
+                    <li>
+                        1
+                    </li>
+                    <li>
+                        2
+                    </li>
+                </ul>
+            </div>
+            <div class="Thumb_section">
+                <div class="thumball"> <!-- 작품 컨텐츠 -->
+                    <a href="pages/videos/1/Circulation.html">
+                        <div class="thumb">
+                            <img src="/src/image/thumbs/circuration.png" alt="고윤석 - Circulation" />
+                        </div>
+                        <div class="thumb_info">
+                        <ul>
+                            <li>{this.props.name}</li>
+                            <li>{this.props.title}</li>
+                        </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="thumball"> <!-- 작품 컨텐츠 -->
+                    <a href="pages/videos/1/Circulation.html">
+                        <div class="thumb">
+                            <img src="/src/image/thumbs/circuration.png" alt="고윤석 - Circulation" />
+                        </div>
+                        <div class="thumb_info">
+                        <ul>
+                            <li>{this.props.name}</li>
+                            <li>{this.props.title}</li>
+                        </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="thumball"> <!-- 작품 컨텐츠 -->
+                    <a href="pages/videos/1/Circulation.html">
+                        <div class="thumb">
+                            <img src="/src/image/thumbs/circuration.png" alt="고윤석 - Circulation" />
+                        </div>
+                        <div class="thumb_info">
+                        <ul>
+                            <li>{this.props.name}</li>
+                            <li>{this.props.title}</li>
+                        </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <footer>
+            <div class="footer_info">
+                © 2021 by IMJ Foundation
+            </div>
+        </footer>
+    </div>
+</body>

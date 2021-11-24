@@ -1,0 +1,54 @@
+.thumb {
+  width: 426px;
+  height: 240px;
+  border: 1px solid #000;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.thumb_info {
+  width: 426px;
+  height: 50px;
+  /* border: 1px solid #000; */
+  margin: 15px;
+  letter-spacing: -1px;
+}
+
+.thumb_info ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumball img {
+  width: 426px;
+  transition: all 0.5s ease;
+}
+
+.thumball:hover img {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+  transition: all 0.5s ease;
+}
+
+.title_name {
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+.title_desc {
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
+.title_maker {
+  margin-top: -30px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -2px;
+}
+
+@media screen and (max-width: 768px) {
+}
