@@ -50,8 +50,8 @@ p {
   text-align: center;
   font-size: 15px;
   position: fixed;
-  background-color: rgb(245, 245, 245);
-  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  z-index: 10;
 }
 
 .header ul {
@@ -76,7 +76,7 @@ p {
 }
 
 .main-menu li ul {
-  margin-top: 15px;
+  margin-top: 23px;
   padding-top: 30px;
   left: 0;
 }
@@ -87,26 +87,18 @@ p {
   opacity: 0;
   visibility: hidden;
   font-size: 15px;
-  width: 100%;
+  width: 120%;
+  opacity: 0;
+  transform: translate3D(-5%, 0, 0);
+  transition: all 1s;
 }
 
 .main-menu li:hover .sub-menu {
   opacity: 1;
   visibility: visible;
-  animation-name: submenu;
-  animation-duration: 1s;
-  animation-direction: alternate;
-}
-@keyframes submenu {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateZ(0);
-  }
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 1s;
 }
 
 .bodydefault {
