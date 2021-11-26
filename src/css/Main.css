@@ -39,6 +39,11 @@ a:hover {
   transition: all 0.2s ease;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   width: 100%;
   height: 90px;
@@ -51,8 +56,8 @@ a:hover {
 
 .header ul {
   list-style: none;
+  display: inline-block;
   display: flex;
-  justify-content: space-around;
 }
 
 .header ul li {
@@ -88,6 +93,20 @@ a:hover {
 .main-menu li:hover .sub-menu {
   opacity: 1;
   visibility: visible;
+  animation-name: submenu;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+@keyframes submenu {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
 }
 
 .bodydefault {
@@ -106,17 +125,18 @@ a:hover {
 
 .Thumb_section {
   display: flex;
+  margin-top: 50px;
 }
 
 input {
-  width: 100%;
+  width: 90%;
   padding: 15px;
+  border-radius: 50px;
 }
 
 .searchbar {
-  float: right;
-  width: 30%;
-  margin-bottom: px;
+  float: left;
+  width: 40%;
 }
 
 .filter_menu ul {
@@ -139,9 +159,10 @@ footer {
 @media screen and (max-width: 768px) {
   .Main_section {
     height: auto;
+    display: inline-block;
   }
 
   .Thumb_section {
-    display: inline-table;
+    display: inline-block;
   }
 }

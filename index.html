@@ -1,108 +1,128 @@
 <!DOCTYPE html>
 <head>
-    <link rel="shortcut icon" href="./src/image/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./src/image/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./src/css/Main.css">
-    <link rel="stylesheet" href="./src/css/Video.css">
+  <link
+    rel="shortcut icon"
+    href="./src/image/favicon.ico"
+    type="image/x-icon"
+  />
+  <link rel="icon" href="./src/image/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./src/css/Main.css" />
+  <link rel="stylesheet" href="./src/css/Video.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-    <div class="header">
-        <nav>
-          <ul>
-            <li>
-              <div>
-                <ul class="main-menu">
-                  <li>
-                    Menu 1
-                    <ul class="sub-menu">
-                        <a href="./pages/videos/1/index.html">
-                            <li>고윤석</li>
-                        </a>
-                        <li>Sub Menu 2</li>
-                        <li>Sub Menu 3</li>
-                    </ul>
-                  </li>
+  <div class="header">
+    <nav>
+      <ul>
+        <li>
+          <div>
+            <ul class="main-menu">
+              <li>
+                <!-- 로고 영역 -->
+                <a href="../../../index.html">
+                  <img
+                    src="../../../src/image/Logo.png"
+                    width="70px;"
+                    alt="IMJ Foundation"
+                  />
+                </a>
+              </li>
+              <li>
+                Menu 1
+                <ul class="sub-menu">
+                  <!-- 동영상 만든이 -->
+                  <a href="./pages/videos/1/index.html">
+                    <li>고윤석</li>
+                  </a>
+                  <li>Sub Menu 2</li>
+                  <li>Sub Menu 3</li>
+                </ul>
+              </li>
+              <li>User</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bodydefault">
+    <div class="Main_section">
+      <div class="searchbar">
+        <!--검색창-->
+        <input
+          onkeyup="filter()"
+          type="text"
+          id="value"
+          placeholder="Type to Search"
+        />
+      </div>
+      <div class="filter_menu">
+        <ul>
+          <li>1</li>
+          <li>2</li>
+        </ul>
+      </div>
+      <div>
+      </hr>
+      </div>
+      <div class="Thumb_section">
+        <div class="thumball">
+          <!-- 작품 컨텐츠 -->
+          <div class="item">
+            <a href="./pages/videos/1/Circulation.html">
+              <div class="thumb">
+                <img
+                  src="./src/image/thumbs/circuration.png"
+                  alt="고윤석 - Circulation"
+                />
+              </div>
+              <div class="thumb_info">
+                <ul>
+                  <li class="name">고윤석 - Circulation</li>
                 </ul>
               </div>
-            </li>
-            <li>
-                <a href="./index.html">
-                    <img
-                        src="./src/image/Logo.png"
-                        width="70px;"
-                        alt="IMJ Foundation"
-                    />
-                </a>
-            </li>
-            <li>
-              <Link to="/user">User</Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    <div class="bodydefault">
-        <div class="Main_section">
-            <div class="searchbar"> <!--검색창-->
-                <input type="search" />
-            </div>
-            <div class="filter_menu">
-                <ul>
-                    <li>
-                        1
-                    </li>
-                    <li>
-                        2
-                    </li>
-                </ul>
-            </div>
-            <div class="Thumb_section">
-                <div class="thumball"> <!-- 작품 컨텐츠 -->
-                    <a href="./pages/videos/1/Circulation.html">
-                        <div class="thumb">
-                            <img src="./src/image/thumbs/circuration.png" alt="고윤석 - Circulation" />
-                        </div>
-                        <div class="thumb_info">
-                        <ul>
-                            <li>{this.props.name}</li>
-                            <li>{this.props.title}</li>
-                        </ul>
-                        </div>
-                    </a>
-                </div>
-                <div class="thumball"> <!-- 작품 컨텐츠 -->
-                    <a href="./pages/videos/1/Circulation.html">
-                        <div class="thumb">
-                            <img src="./src/image/thumbs/circuration.png" alt="고윤석 - Circulation" />
-                        </div>
-                        <div class="thumb_info">
-                        <ul>
-                            <li>{this.props.name}</li>
-                            <li>{this.props.title}</li>
-                        </ul>
-                        </div>
-                    </a>
-                </div>
-                <div class="thumball"> <!-- 작품 컨텐츠 -->
-                    <a href="./pages/videos/1/Circulation.html">
-                        <div class="thumb">
-                            <img src="./src/image/thumbs/circuration.png" alt="고윤석 - Circulation" />
-                        </div>
-                        <div class="thumb_info">
-                        <ul>
-                            <li>{this.props.name}</li>
-                            <li>{this.props.title}</li>
-                        </ul>
-                        </div>
-                    </a>
-                </div>
-            </div>
+            </a>
+          </div>
         </div>
+        <div class="thumball">
+          <!-- 작품 컨텐츠 -->
+          <div class="item">
+            <a href="./pages/videos/1/Unknown.html">
+              <div class="thumb">
+                <img src="./src/image/thumbs/unknown.png" alt="Unknown" />
+              </div>
+              <div class="thumb_info">
+                <ul>
+                  <li class="name">Unknown</li>
+                  <li class="name">Unknown</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div>
-        <footer>
-            <div class="footer_info">
-                © 2021 by IMJ Foundation
-            </div>
-        </footer>
-    </div>
+  </div>
+  <div>
+    <footer>
+      <div class="footer_info">© 2021 by IMJ Foundation</div>
+    </footer>
+  </div>
+  <script type="text/javascript">
+    function filter() {
+      var value, name, item, i;
+
+      value = document.getElementById("value").value.toUpperCase();
+      item = document.getElementsByClassName("item");
+
+      for (i = 0; i < item.length; i++) {
+        name = item[i].getElementsByClassName("name");
+        if (name[0].innerHTML.toUpperCase().indexOf(value) > -1) {
+          item[i].style.display = "flex";
+        } else {
+          item[i].style.display = "none";
+        }
+      }
+    }
+  </script>
 </body>
