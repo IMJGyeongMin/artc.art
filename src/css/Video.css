@@ -53,4 +53,7 @@
 }
 
 @media screen and (max-width: 768px) {
+  .thumb {
+    width: 100%;
+  }
 }
