@@ -134,8 +134,24 @@ input {
 }
 
 .filter_menu ul {
+  float: right;
   list-style: none;
   display: flex;
+}
+
+.b2t {
+  width: 4vw;
+  height: 4vw;
+  border: 1px solid rgb(182, 182, 182);
+  background: rgb(245, 245, 245);
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  margin: 15px;
+}
+
+.b2t:hover {
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 footer {
@@ -154,9 +170,10 @@ footer {
   .Main_section {
     height: auto;
     display: inline-block;
+    padding: 0;
   }
 
   .Thumb_section {
-    display: inline-block;
+    display: block;
   }
 }

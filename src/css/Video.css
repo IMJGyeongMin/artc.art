@@ -54,6 +54,18 @@
 
 @media screen and (max-width: 768px) {
   .thumb {
-    width: 100%;
+    width: 96%;
+    height: auto;
+  }
+  .thumb_info {
+    width: 90%;
+  }
+
+  .thumball img {
+    width: 96%;
+  }
+
+  .thumball:hover img {
+    transform: scale(1);
   }
 }
