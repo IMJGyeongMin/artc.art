@@ -110,9 +110,12 @@ p {
 }
 
 .Main_section {
-  padding: 35px;
   padding-bottom: 80px;
   height: 100vh;
+}
+
+.mainvideo_section {
+  padding: 35px;
 }
 
 .Thumb_section {
@@ -157,7 +160,7 @@ footer {
   text-align: center;
   background-color: rgb(245, 245, 245);
   letter-spacing: -1px;
-  width: 100%;
+  max-width: 100%;
   height: 80px;
 }
 

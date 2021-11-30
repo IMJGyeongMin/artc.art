@@ -9,8 +9,11 @@
   <link rel="stylesheet" href="../../../src/css/Main.css" />
   <link rel="stylesheet" href="../../../src/css/Video.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script language="javascript">
+    document.oncontextmenu = function(){return false;}
+  </script>
 </head>
-<body>
+<body oncontextmenu="return false" onseletstart="return false">
   <div class="header">
     <nav>
       <ul>
@@ -47,25 +50,30 @@
   </div>
   <div class="bodydefault">
     <div class="Main_section">
-      <iframe
+      <div class="mainvideo_section">
+        <video
         width="100%"
-        height="512"
-        src="https://www.youtube.com/embed/ndrqJjVNGJ8"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      >
-      </iframe>
-      <p class="title_name">Unknown</p>
-      <p class="title_maker">Unknown</p>
-      <hr />
-      <p class="title_desc">This is Description Section</p>
-      <div class="comment">
+        height="684"
+        controls  loop controlsList="nodownload"
+        poster="../../../src/image/thumbs/unknown.png"
+        style="background: black;"
+        >
+        <source src="../../../src/videos/file.mp4" type="video/mp4">
+        사용중인 브라우저는 비디오 태그를 지원하지 않습니다.
+        </video>
+        <p class="title_name">Unknown</p>
+        <p class="title_maker">Unknown</p>
         <hr />
-        <p>댓글</p>
+        <p class="title_desc">This is Description Section</p>
       </div>
     </div>
+    <script src="https://utteranc.es/client.js"
+      repo="IMJGyeongMin/imj"
+      issue-term="pathname"
+      theme="preferred-color-scheme"
+      crossorigin="anonymous"
+      async>
+    </script>
   </div>
   <div>
     <footer>
