@@ -277,4 +277,14 @@ footer {
   .searchbar {
     width: 100%;
   }
+
+  .sub-menu {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .main-menu li:hover .sub-menu {
+    visibility: hidden;
+    opacity: 0;
+  }
 }
