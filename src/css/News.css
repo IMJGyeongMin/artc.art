@@ -40,7 +40,7 @@ a:hover {
 }
 
 .news_title {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   letter-spacing: -1px;
   font-size: 20px;
@@ -62,7 +62,7 @@ a:hover {
 }
 
 .news_desc {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   letter-spacing: -0.5px;
 }
