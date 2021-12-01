@@ -201,6 +201,7 @@ html {
 
 .Thumb_section {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 50px;
 }
 
