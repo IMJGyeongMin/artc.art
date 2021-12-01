@@ -11,6 +11,7 @@ a:hover {
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .news_type {
@@ -69,6 +70,8 @@ a:hover {
 .video_type {
   margin-left: 20px;
   width: 0;
+  display: flex;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 768px) {
