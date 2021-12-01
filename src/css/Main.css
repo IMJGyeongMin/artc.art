@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
+::-moz-selection {
+  background: rgb(36, 36, 36);
+  color: #fff;
+}
+::selection {
+  background: rgb(36, 36, 36);
+  color: #fff;
+}
+
 body {
   margin: 0;
   font-family: "Noto Sans KR", sans-serif;
