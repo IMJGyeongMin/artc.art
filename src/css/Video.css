@@ -10,7 +10,8 @@
   width: 426px;
   height: 50px;
   /* border: 1px solid #000; */
-  margin: 15px;
+  margin-left: 15px;
+  margin-top: -7px;
   letter-spacing: -1px;
 }
 
@@ -40,7 +41,7 @@
 }
 
 .title_desc {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 100;
   letter-spacing: -1px;
 }
@@ -52,8 +53,27 @@
   letter-spacing: -2px;
 }
 
+.title_works {
+  letter-spacing: -2px;
+  margin-top: 200px;
+  font-weight: 500;
+  font-size: 20px;
+  clear: left;
+}
+
 .utterances {
   max-width: 95% !important;
+  float: left;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+
+.video_hr {
+  background-color: rgb(236, 236, 236);
+  border: 0;
+  height: 1.5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
