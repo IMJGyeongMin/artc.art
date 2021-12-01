@@ -181,6 +181,12 @@ html {
   margin-top: -70px;
 }
 
+.mainvideo_section_bottom {
+  padding: 35px;
+  margin-top: -70px;
+  display: flex;
+}
+
 .Thumb_section {
   display: flex;
   margin-top: 50px;
