@@ -126,7 +126,7 @@ p {
 
 .Main_section {
   padding-bottom: 80px;
-  height: 1200px;
+  height: auto;
   background: white;
   -webkit-animation: fadein 1.7s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1.7s; /* Firefox < 16 */
