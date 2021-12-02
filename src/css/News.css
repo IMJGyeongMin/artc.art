@@ -103,7 +103,7 @@ a:hover {
 
 .video_type {
   margin-left: 20px;
-  width: 0;
+  width: 100%;
   display: flex;
   margin-bottom: 100px;
 }
