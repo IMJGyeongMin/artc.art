@@ -19,6 +19,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   overflow-y: auto;
+  -webkit-touch-callout: none;
 }
 
 ul {
