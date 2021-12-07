@@ -1,17 +1,5 @@
-.artist_frame {
-  width: 350px;
-  padding: 30px;
-  border-radius: 100px;
-  border: 0.1px solid rgb(195, 195, 195);
-  outline: none;
-  font-size: 20px;
-  font-weight: 900;
-  background-color: rgb(245, 245, 245);
-  font-family: "Montserrat";
-  margin-top: 50px;
-  margin-bottom: 10px;
-  word-break: break-all;
-  text-align: center;
+a:hover {
+  color: grey;
 }
 
 .artist_name {
@@ -22,7 +10,7 @@
   margin-top: 50px;
 }
 
-.artist_name > p {
+.artist_name > a > p {
   margin-bottom: 12px;
   clear: left;
 }
@@ -38,6 +26,23 @@
   margin-right: 12px;
 }
 
+.artist_works > ul > li > a > img:hover {
+  animation: imgani;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+@keyframes imgani {
+  0% {
+    filter: brightness(1);
+  }
+  30% {
+    filter: brightness(1.4);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
+
 .artist_works > hr {
   width: 50%;
   float: left;
@@ -48,6 +53,15 @@
 }
 
 @media screen and (max-width: 768px) {
+  .artist_name {
+    font-size: 25px;
+  }
+
+  .artist_name > a > p {
+    margin-bottom: 25px;
+    clear: left;
+  }
+
   .artist_works > ul {
     display: inline;
   }
