@@ -16,7 +16,7 @@ a:hover {
   background-color: rgb(245, 245, 245);
   margin-top: 50px;
   margin-left: 30px;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
   text-align: center;
 }
 

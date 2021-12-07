@@ -1,7 +1,6 @@
 .thumb {
   width: 426px;
   height: 240px;
-  /* border: 1px solid #000; */
   margin: 15px;
   overflow: hidden;
 }
@@ -9,7 +8,6 @@
 .thumb_info {
   width: 426px;
   height: 50px;
-  /* border: 1px solid #000; */
   margin-left: 15px;
   margin-top: -7px;
   letter-spacing: -1px;
@@ -66,6 +64,7 @@
   margin-left: 10px;
   margin-top: 500px;
   font-weight: 500;
+  margin-bottom: -50px;
   font-size: 20px;
   clear: left;
 }
@@ -88,7 +87,6 @@
 .other_works {
   display: flex;
   clear: left;
-  margin-bottom: px;
 }
 
 @media screen and (max-width: 768px) {
