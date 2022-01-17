@@ -378,7 +378,7 @@ footer {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
   top: 0px;
-  left: 8px;
+  left: 0px;
 }
 
 #nav-icon4.open span:nth-child(2) {
@@ -392,7 +392,7 @@ footer {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
   top: 21px;
-  left: 8px;
+  left: 0px;
 }
 
 #mobile-menu {
