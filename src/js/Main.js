@@ -38,3 +38,10 @@ document.onmousedown == click;
 $(document).bind("contextmenu", function (e) {
   return false;
 });
+
+const toggleBtn = document.querySelector("#nav-icon4");
+const menu = document.querySelector("#mobile-menu");
+
+toggleBtn.addEventListener("click", () => {
+  menu.classList.toggle("active");
+});

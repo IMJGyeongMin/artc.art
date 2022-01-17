@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="../../src/css/Artists.css" />
   <link rel="stylesheet" type="text/css"
   href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- 개발시 주석처리 필수-->
   <script src="../../src/js/Main.js"></script>
@@ -37,7 +38,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li id="nav-artist">
                     <a href="index.html">
                     Artist
                     </a>
@@ -57,7 +58,7 @@
                     </a>
                 </ul>
                 </li>
-                <li>
+                <li id="nav-project">
                   Project
                   <ul class="sub-menu">
                     <!-- 동영상 만든이 -->
@@ -71,6 +72,28 @@
           </div>
         </li>
       </ul>
+      <label for="toggle">
+        <div id="nav-icon4">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </label>
+      <input type="checkbox" id="toggle"/>
+      <div id="mobile-menu">
+        <ul>
+          <li>
+            <a href="./pages/videos/index.html">
+              Artist
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Project
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </div>
   <div class="bodydefault">
@@ -175,4 +198,11 @@
       <a href="#" style="float:right; margin-right: 50px; margin-top: -40px;">Contact Us</a> 
     </footer>
   </div>
+  <script>
+    $(document).ready(function () {
+    $("#nav-icon4").click(function () {
+      $(this).toggleClass("open");
+      });
+    });
+  </script>
 </body>
