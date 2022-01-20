@@ -15,14 +15,24 @@ function keycheck() {
       keydownCtrl = 1;
       return false;
       break; //Ctrl
+
+      alert(
+        "Right-click, drag, and developer tools are prohibited to protect the work."
+      );
   }
 
   if (keydownCtrl) return false;
+  alert(
+    "Right-click, drag, and developer tools are prohibited to protect the work."
+  );
 }
 
 function uncheckCtrlShift() {
   if (event.keyCode == 17) keydownCtrl = 0;
   if (event.KeyCode == 16) keydownShift = 0;
+  alert(
+    "Right-click, drag, and developer tools are prohibited to protect the work."
+  );
 }
 
 function click() {
@@ -36,6 +46,9 @@ function click() {
 document.onmousedown == click;
 
 $(document).bind("contextmenu", function (e) {
+  alert(
+    "Right-click, drag, and developer tools are prohibited to protect the work."
+  );
   return false;
 });
 
