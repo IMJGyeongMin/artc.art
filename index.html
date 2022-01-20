@@ -18,7 +18,7 @@
   <script src="https://kit.fontawesome.com/fd41597021.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <!-- 개발시 주석처리 필수-->
-  <script src="../../src/js/Main.js"></script>
+  <!-- <script src="../../src/js/Main.js"></script> -->
 </head>
 <body oncontextmenu="return false" ondragstart="return false" onseletstart="return false" >
   <div class="header">
@@ -79,18 +79,23 @@
       </label>
       <input type="checkbox" id="toggle"/>
       <div id="mobile-menu">
-        <ul>
-          <li>
-            <a href="./pages/videos/index.html">
-              Artist
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Project
-            </a>
-          </li>
-        </ul>
+        <div>
+          <ul>
+            <li>
+              <a href="./pages/videos/index.html">
+                Artist
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Project
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" id="contact-mobile">
+          Contact us
+        </a>
       </div>
     </nav>
   </div>
@@ -226,7 +231,7 @@
   <div>
     <footer>
       <div class="footer_info">© 2021 by Artc.art</div>
-      <a href="#" style="float:right; margin-right: 50px; margin-top: -40px;">Contact Us</a> 
+      <a id="contact" href="#" style="float:right; margin-right: 50px; margin-top: -40px;">Contact Us</a> 
     </footer>
   </div>
   <script>
