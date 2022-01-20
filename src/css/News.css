@@ -144,7 +144,6 @@ a:hover {
 .newspage_img > img {
   width: 100%;
   margin-top: -700px;
-  position: fixed;
   visibility: hidden;
 }
 
@@ -240,12 +239,13 @@ a:hover {
 
   .newspage_img {
     background-image: none;
+    visibility: hidden;
   }
 
   .newspage_img > img {
     visibility: visible;
     margin-top: -100px;
     width: 100%;
-    position: relative;
+    z-index: -15;
   }
 }
