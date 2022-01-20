@@ -143,6 +143,9 @@ a:hover {
 
 .newspage_img > img {
   width: 100%;
+  margin-top: -700px;
+  position: fixed;
+  visibility: hidden;
 }
 
 .newspage {
@@ -233,5 +236,15 @@ a:hover {
   .newspage {
     width: 100%;
     margin-left: 0;
+  }
+
+  .newspage_img {
+    background-image: none;
+  }
+
+  .newspage_img > img {
+    visibility: visible;
+    margin-top: -100px;
+    width: 100%;
   }
 }
