@@ -124,6 +124,51 @@ a:hover {
   visibility: hidden;
 }
 
+.newspage_img {
+  background-image: url("../image/artists/news_thumb/bliendgrean_1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  filter: blur(0.15rem);
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.newspage_img > img {
+  width: 100%;
+  margin-top: -400px;
+}
+
+.newspage {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+}
+
+.newspage_title {
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.newspage_desc {
+  margin-top: 20px;
+}
+
+.newspage_p {
+  margin-top: 20px;
+}
+
+#newspage_sources {
+  margin-top: 100px;
+  font-weight: 500;
+  font-size: 13px;
+  color: gray;
+}
+
 @media screen and (max-width: 768px) {
   .news_type {
     width: 100%;
@@ -176,6 +221,11 @@ a:hover {
   }
 
   .video_type {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .newspage {
     width: 100%;
     margin-left: 0;
   }
