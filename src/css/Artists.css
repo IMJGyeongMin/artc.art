@@ -67,7 +67,7 @@ a:hover {
   }
 
   .artist_works > ul > li > a > img {
-    width: 100%;
+    width: 200px;
   }
   .artist_works > ul > li {
     margin-top: 10px;
