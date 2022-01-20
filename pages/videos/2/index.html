@@ -80,18 +80,23 @@
       </label>
       <input type="checkbox" id="toggle"/>
       <div id="mobile-menu">
-        <ul>
-          <li>
-            <a href="../../../pages/videos/index.html">
-              Artist
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Project
-            </a>
-          </li>
-        </ul>
+        <div>
+          <ul>
+            <li>
+              <a href="../../../pages/videos/index.html">
+                Artist
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Project
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" id="contact-mobile">
+          Contact us
+        </a>
       </div>
     </nav>
   </div>
@@ -99,11 +104,15 @@
     <!-- 본문 내용 -->
     <div class="Main_section">
       <div class="mainvideo_section">
-        <p class="title_name">Liam</p>
+        <p class="news_title_name">Liam</p>
         <p class="title_name_small">&nbsp;</p>
         <hr />
-        <p class="head_style">#VIDEO</p>
+        <p class="head_style">
+          #VIDEO
+        </p>
+        <hr class="news-mobile-hr" />
         <div class="video_type">
+          <div class="Thumb_section" style="display: flex;">
             <div class="thumball">
               <!-- 작품 컨텐츠 -->
               <div class="item">
@@ -137,6 +146,7 @@
                 </a>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </div>
@@ -145,7 +155,7 @@
     <!-- Footer 영역 -->
     <footer>
       <div class="footer_info">© 2021 by Artc.art</div>
-      <a href="#" style="float:right; margin-right: 50px; margin-top: -40px;">Contact Us</a> 
+      <a id="contact" href="#" style="float:right; margin-right: 50px; margin-top: -40px;">Contact Us</a> 
     </footer>
   </div>
   <script>
