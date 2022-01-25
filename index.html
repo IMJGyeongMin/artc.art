@@ -1,261 +1,263 @@
 <!DOCTYPE html>
-<head>
-  <title>
-    Artc.art
-  </title>
-  <link rel="apple-touch-icon" sizes="180x180" href="../../../src/image/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../../../src/image/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../../src/image/favicon-16x16.png">
-  <link rel="manifest" href="../../../src/image/site.webmanifest">
-  <link rel="mask-icon" href="../../../src/image/safari-pinned-tab.svg" color="#df1913">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="./src/css/Main.css" />
-  <link rel="stylesheet" href="./src/css/Video.css" />
-  <link rel="stylesheet" type="text/css"
-  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="https://kit.fontawesome.com/fd41597021.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <!-- 개발시 주석처리 필수-->
-  <script src="../../src/js/Main.js"></script>
-</head>
-<body oncontextmenu="return false" ondragstart="return false" onseletstart="return false" >
-  <div class="header">
-    <nav>
-      <ul>
-        <li>
+<html lang="en">
+  <head>
+    <title>
+      Artc.art
+    </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../src/image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../src/image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../src/image/favicon-16x16.png">
+    <link rel="manifest" href="../../../src/image/site.webmanifest">
+    <link rel="mask-icon" href="../../../src/image/safari-pinned-tab.svg" color="#df1913">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./src/css/Main.css" />
+    <link rel="stylesheet" href="./src/css/Video.css" />
+    <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/fd41597021.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- 개발시 주석처리 필수-->
+    <script src="../../src/js/Main.js"></script>
+  </head>
+  <body oncontextmenu="return false" ondragstart="return false" onseletstart="return false" >
+    <div class="header">
+      <nav>
+        <ul>
+          <li>
+            <div>
+              <ul class="main-menu">
+                <li>
+                  <!-- 로고 영역 -->
+                  <a href="./index.html">
+                    <img
+                      src="./src/image/Logo.png"
+                      width="50px;"
+                      alt="Artc.art"
+                    />
+                  </a>
+                </li>
+                <li id="nav-artist">
+                  <a href="./pages/videos/index.html">
+                    Artist
+                  </a>
+                  <ul class="sub-menu">
+                    <!-- Artists -->
+                    <a href="./pages/videos/1/index.html">
+                      <li>BLIEND.GREAN</li>
+                    </a>
+                    <a href="./pages/videos/2/index.html">
+                      <li>Liam</li>
+                    </a>
+                    <a href="./pages/videos/3/index.html">
+                      <li>Itdan</li>
+                    </a>
+                    <a href="./pages/videos/4/index.html">
+                      <li>HaJung Kim</li>
+                    </a>
+                  </ul>
+                </li>
+                <li id="nav-project">
+                  Project
+                  <ul class="sub-menu">
+                    <a href="#">
+                      <li>Project 1</li>
+                    </a>
+                    <li>Project 2</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <label for="toggle">
+          <div id="nav-icon4">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+        <input type="checkbox" id="toggle"/>
+        <div id="mobile-menu">
           <div>
-            <ul class="main-menu">
+            <ul>
               <li>
-                <!-- 로고 영역 -->
-                <a href="./index.html">
-                  <img
-                    src="./src/image/Logo.png"
-                    width="50px;"
-                    alt="Artc.art"
-                  />
-                </a>
-              </li>
-              <li id="nav-artist">
                 <a href="./pages/videos/index.html">
                   Artist
                 </a>
-                <ul class="sub-menu">
-                  <!-- Artists -->
-                  <a href="./pages/videos/1/index.html">
-                    <li>BLIEND.GREAN</li>
-                  </a>
-                  <a href="./pages/videos/2/index.html">
-                    <li>Liam</li>
-                  </a>
-                  <a href="./pages/videos/3/index.html">
-                    <li>Itdan</li>
-                  </a>
-                  <a href="./pages/videos/4/index.html">
-                    <li>HaJung Kim</li>
-                  </a>
-                </ul>
               </li>
-              <li id="nav-project">
-                Project
-                <ul class="sub-menu">
-                  <a href="#">
-                    <li>Project 1</li>
-                  </a>
-                  <li>Project 2</li>
-                </ul>
+              <li>
+                <a href="#">
+                  Project
+                </a>
               </li>
             </ul>
           </div>
-        </li>
-      </ul>
-      <label for="toggle">
-        <div id="nav-icon4">
-          <span></span>
-          <span></span>
-          <span></span>
+          <a href="#" id="contact-mobile">
+            Contact us
+          </a>
         </div>
-      </label>
-      <input type="checkbox" id="toggle"/>
-      <div id="mobile-menu">
-        <div>
-          <ul>
-            <li>
-              <a href="./pages/videos/index.html">
-                Artist
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Project
-              </a>
-            </li>
-          </ul>
-        </div>
-        <a href="#" id="contact-mobile">
-          Contact us
-        </a>
-      </div>
-    </nav>
-  </div>
-  <div class="bodydefault">
-    <div class="Main_section">
-      <div class="mainvideo_section">
-        <div class="searchbar">
-          <!--검색창-->
-          <i class="fas fa-search" style="font-size: 20px; margin-left: 20px; margin-top: 15px; color: grey;"></i>
-          <input
-            onkeyup="filter()"
-            type="text"
-            id="value"
-            placeholder="Type to Search"
-          />
-        </div>
-        <div>
-        <hr class="main_hr"/>
-        </div>
-        <div class="Thumb_section">
-          <div class="thumball">
-            <!-- 작품 컨텐츠 -->
-            <div class="item">
-              <a href="./pages/videos/1/circulation.html">
-                <div class="thumb">
-                  <img
-                    src="./src/image/thumbs/circuration.png"
-                    alt="고윤석 - Circulation"
-                  />
-                </div>
-                <div class="thumb_info">
-                  <ul>
-                    <li class="name"><b>Circulation</b></br>BLIEND.GREAN</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
+      </nav>
+    </div>
+    <div class="bodydefault">
+      <div class="Main_section">
+        <div class="mainvideo_section">
+          <div class="searchbar">
+            <!--검색창-->
+            <i class="fas fa-search" style="font-size: 20px; margin-left: 20px; margin-top: 15px; color: grey;"></i>
+            <input
+              onkeyup="filter()"
+              type="text"
+              id="value"
+              placeholder="Type to Search"
+            />
           </div>
-          <div class="thumball">
-            <!-- 작품 컨텐츠 -->
-            <div class="item">
-              <a href="./pages/videos/1/week.html">
-                <div class="thumb">
-                  <img src="./src/image/thumbs/ecobo.png" alt="Unknown" />
-                </div>
-                <div class="thumb_info">
-                  <ul>
-                    <li class="name"><b>Week</b></br>BLIEND.GREAN</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
+          <div>
+          <hr class="main_hr"/>
           </div>
-          <div class="thumball">
-            <!-- 작품 컨텐츠 -->
-            <div class="item">
-              <a href="./pages/videos/2/retro.html">
-                <div class="thumb">
-                  <img src="./src/image/thumbs/retro.png" alt="Unknown" />
-                </div>
-                <div class="thumb_info">
-                  <ul>
-                    <li class="name"><b>Retro</b></br>Liam</li>
-                  </ul>
-                </div>
-              </a>
+          <div class="Thumb_section">
+            <div class="thumball">
+              <!-- 작품 컨텐츠 -->
+              <div class="item">
+                <a href="./pages/videos/1/circulation.html">
+                  <div class="thumb">
+                    <img
+                      src="./src/image/thumbs/circuration.png"
+                      alt="고윤석 - Circulation"
+                    />
+                  </div>
+                  <div class="thumb_info">
+                    <ul>
+                      <li class="name"><b>Circulation</b></br>BLIEND.GREAN</li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="thumball">
-            <!-- 작품 컨텐츠 -->
-            <div class="item">
-              <a href="./pages/videos/2/retrocity.html">
-                <div class="thumb">
-                  <img src="./src/image/thumbs/retro2.png" alt="Retro" />
-                </div>
-                <div class="thumb_info">
-                  <ul>
-                    <li class="name"><b>Retro City</b></br>Liam</li>
-                  </ul>
-                </div>
-              </a>
+            <div class="thumball">
+              <!-- 작품 컨텐츠 -->
+              <div class="item">
+                <a href="./pages/videos/1/week.html">
+                  <div class="thumb">
+                    <img src="./src/image/thumbs/ecobo.png" alt="Unknown" />
+                  </div>
+                  <div class="thumb_info">
+                    <ul>
+                      <li class="name"><b>Week</b></br>BLIEND.GREAN</li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="thumball">
-            <!-- 작품 컨텐츠 -->
-            <div class="item">
-              <a href="./pages/videos/3/innocentvictim.html">
-                <div class="thumb">
-                  <img src="./src/image/thumbs/ecoboxchelsea.png" alt="Echobo X Chelsea" />
-                </div>
-                <div class="thumb_info">
-                  <ul>
-                    <li class="name"><b>Innocent victim</b></br>Itdan</li>
-                  </ul>
-                </div>
-              </a>
+            <div class="thumball">
+              <!-- 작품 컨텐츠 -->
+              <div class="item">
+                <a href="./pages/videos/2/retro.html">
+                  <div class="thumb">
+                    <img src="./src/image/thumbs/retro.png" alt="Unknown" />
+                  </div>
+                  <div class="thumb_info">
+                    <ul>
+                      <li class="name"><b>Retro</b></br>Liam</li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="thumball">
-            <!-- 작품 컨텐츠 -->
-            <div class="item">
-              <a href="./pages/videos/4/paintopixel.html">
-                <div class="thumb">
-                  <img src="./src/image/thumbs/kimhajeong.png" alt="Pain to Pixel" />
-                </div>
-                <div class="thumb_info">
-                  <ul>
-                    <li class="name"><b>Paint to Pixel</b></br>HaJung Kim</li>
-                  </ul>
-                </div>
-              </a>
+            <div class="thumball">
+              <!-- 작품 컨텐츠 -->
+              <div class="item">
+                <a href="./pages/videos/2/retrocity.html">
+                  <div class="thumb">
+                    <img src="./src/image/thumbs/retro2.png" alt="Retro" />
+                  </div>
+                  <div class="thumb_info">
+                    <ul>
+                      <li class="name"><b>Retro City</b></br>Liam</li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="thumball">
-            <!-- 작품 컨텐츠 -->
-            <div class="item">
-              <a href="./pages/videos/1/cycle.html">
-                <div class="thumb">
-                  <img src="./src/image/thumbs/cycle.png" alt="Pain to Pixel" />
-                </div>
-                <div class="thumb_info">
-                  <ul>
-                    <li class="name"><b>CYCLE</b></br>BLIEND.GREAN</li>
-                  </ul>
-                </div>
-              </a>
+            <div class="thumball">
+              <!-- 작품 컨텐츠 -->
+              <div class="item">
+                <a href="./pages/videos/3/innocentvictim.html">
+                  <div class="thumb">
+                    <img src="./src/image/thumbs/ecoboxchelsea.png" alt="Echobo X Chelsea" />
+                  </div>
+                  <div class="thumb_info">
+                    <ul>
+                      <li class="name"><b>Innocent victim</b></br>Itdan</li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="thumball">
+              <!-- 작품 컨텐츠 -->
+              <div class="item">
+                <a href="./pages/videos/4/paintopixel.html">
+                  <div class="thumb">
+                    <img src="./src/image/thumbs/kimhajeong.png" alt="Pain to Pixel" />
+                  </div>
+                  <div class="thumb_info">
+                    <ul>
+                      <li class="name"><b>Paint to Pixel</b></br>HaJung Kim</li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="thumball">
+              <!-- 작품 컨텐츠 -->
+              <div class="item">
+                <a href="./pages/videos/1/cycle.html">
+                  <div class="thumb">
+                    <img src="./src/image/thumbs/cycle.png" alt="Pain to Pixel" />
+                  </div>
+                  <div class="thumb_info">
+                    <ul>
+                      <li class="name"><b>CYCLE</b></br>BLIEND.GREAN</li>
+                    </ul>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div>
-    <footer>
-      <div class="footer_info">© 2021 by Artc.art</div>
-      <a id="contact" href="#" style="float:right; margin-right: 50px; margin-top: -40px;">Contact Us</a> 
-    </footer>
-  </div>
-  <script>
-    $(document).ready(function () {
-    $("#nav-icon4").click(function () {
-      $(this).toggleClass("open");
+    <div>
+      <footer>
+        <div class="footer_info">© 2021 by Artc.art</div>
+        <a id="contact" href="#" style="float:right; margin-right: 50px; margin-top: -40px;">Contact Us</a> 
+      </footer>
+    </div>
+    <script>
+      $(document).ready(function () {
+      $("#nav-icon4").click(function () {
+        $(this).toggleClass("open");
+        });
       });
-    });
-  </script>
-  <script type="text/javascript">
-    function filter() {
-      var value, name, item, i;
+    </script>
+    <script type="text/javascript">
+      function filter() {
+        var value, name, item, i;
 
-      value = document.getElementById("value").value.toUpperCase();
-      item = document.getElementsByClassName("item");
+        value = document.getElementById("value").value.toUpperCase();
+        item = document.getElementsByClassName("item");
 
-      for (i = 0; i < item.length; i++) {
-        name = item[i].getElementsByClassName("name");
-        if (name[0].innerHTML.toUpperCase().indexOf(value) > -1) {
-          item[i].style.display = "flex";
-        } else {
-          item[i].style.display = "none";
+        for (i = 0; i < item.length; i++) {
+          name = item[i].getElementsByClassName("name");
+          if (name[0].innerHTML.toUpperCase().indexOf(value) > -1) {
+            item[i].style.display = "flex";
+          } else {
+            item[i].style.display = "none";
+          }
         }
       }
-    }
-  </script>
-</body>
+    </script>
+  </body>
+</html>

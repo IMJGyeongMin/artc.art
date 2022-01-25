@@ -1,173 +1,175 @@
 <!DOCTYPE html>
-<head>
-  <title>
-    The movie "Dongbaek" is about to be released, and Ko Yoon-seok, general director of CG using CINEMA 4D, attract attention. - Artc.art
-  </title>
-  <link rel="apple-touch-icon" sizes="180x180" href="../../../src/image/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../../../src/image/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../../src/image/favicon-16x16.png">
-  <link rel="manifest" href="../../../src/image/site.webmanifest">
-  <link rel="mask-icon" href="../../../src/image/safari-pinned-tab.svg" color="#df1913">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="../../../src/css/Main.css" />
-  <link rel="stylesheet" href="../../../src/css/Video.css" />
-  <link rel="stylesheet" href="../../../src/css/News.css" />
-  <link rel="stylesheet" type="text/css"
-  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- 개발시 주석처리 필수-->
-  <script src="../../../src/js/Main.js"></script>
-</head>
-<body>
-  <div class="header">
-    <nav>
-      <ul>
-        <li>
+<html lang="en">
+  <head>
+    <title>
+      The movie "Dongbaek" is about to be released, and Ko Yoon-seok, general director of CG using CINEMA 4D, attract attention. - Artc.art
+    </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../src/image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../src/image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../src/image/favicon-16x16.png">
+    <link rel="manifest" href="../../../src/image/site.webmanifest">
+    <link rel="mask-icon" href="../../../src/image/safari-pinned-tab.svg" color="#df1913">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="../../../src/css/Main.css" />
+    <link rel="stylesheet" href="../../../src/css/Video.css" />
+    <link rel="stylesheet" href="../../../src/css/News.css" />
+    <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 개발시 주석처리 필수-->
+    <script src="../../../src/js/Main.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <ul>
+          <li>
+            <div>
+              <ul class="main-menu">
+                <li>
+                  <!-- 로고 영역 -->
+                  <a href="../../../index.html">
+                    <img
+                      src="../../../src/image/Logo.png"
+                      width="50px;"
+                      alt="IMJ Foundation"
+                    />
+                  </a>
+                </li>
+                <li id="nav-artist">
+                  <a href="../index.html">
+                    Artist
+                  </a>
+                  <ul class="sub-menu">
+                    <!-- 동영상 만든이 -->
+                    <a href="../../../pages/videos/1/index.html">
+                      <li>BLIEND.GREAN</li>
+                    </a>
+                    <a href="../../../pages/videos/2/index.html">
+                      <li>Liam</li>
+                    </a>
+                    <a href="../../../pages/videos/3/index.html">
+                      <li>Itdan</li>
+                    </a>
+                    <a href="../../../pages/videos/4/index.html">
+                      <li>HaJung Kim</li>
+                    </a>
+                  </ul>
+                </li>
+                <li id="nav-project">
+                  Project
+                  <ul class="sub-menu">
+                    <!-- 동영상 만든이 -->
+                    <a href="#">
+                      <li>Project 1</li>
+                    </a>
+                    <li>Project 2</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <label for="toggle">
+          <div id="nav-icon4">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+        <input type="checkbox" id="toggle"/>
+        <div id="mobile-menu">
           <div>
-            <ul class="main-menu">
+            <ul>
               <li>
-                <!-- 로고 영역 -->
-                <a href="../../../index.html">
-                  <img
-                    src="../../../src/image/Logo.png"
-                    width="50px;"
-                    alt="IMJ Foundation"
-                  />
-                </a>
-              </li>
-              <li id="nav-artist">
-                <a href="../index.html">
+                <a href="../../../pages/videos/index.html">
                   Artist
                 </a>
-                <ul class="sub-menu">
-                  <!-- 동영상 만든이 -->
-                  <a href="../../../pages/videos/1/index.html">
-                    <li>BLIEND.GREAN</li>
-                  </a>
-                  <a href="../../../pages/videos/2/index.html">
-                    <li>Liam</li>
-                  </a>
-                  <a href="../../../pages/videos/3/index.html">
-                    <li>Itdan</li>
-                  </a>
-                  <a href="../../../pages/videos/4/index.html">
-                    <li>HaJung Kim</li>
-                  </a>
-                </ul>
               </li>
-              <li id="nav-project">
-                Project
-                <ul class="sub-menu">
-                  <!-- 동영상 만든이 -->
-                  <a href="#">
-                    <li>Project 1</li>
-                  </a>
-                  <li>Project 2</li>
-                </ul>
+              <li>
+                <a href="#">
+                  Project
+                </a>
               </li>
             </ul>
           </div>
-        </li>
-      </ul>
-      <label for="toggle">
-        <div id="nav-icon4">
-          <span></span>
-          <span></span>
-          <span></span>
+          <a href="#" id="contact-mobile">
+            Contact us
+          </a>
         </div>
-      </label>
-      <input type="checkbox" id="toggle"/>
-      <div id="mobile-menu">
-        <div>
-          <ul>
-            <li>
-              <a href="../../../pages/videos/index.html">
-                Artist
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Project
-              </a>
-            </li>
-          </ul>
-        </div>
-        <a href="#" id="contact-mobile">
-          Contact us
-        </a>
-      </div>
-    </nav>
-  </div>
-  <div class="bodydefault">
-    <!-- 본문 내용 -->
-    <div class="Main_section">
-        <div class="mainvideo_section">
-            <div class="newspage_img">
-                <img
-                    src="../../../src/image/artists/news_thumb/bliendgrean_1.jpg"
-                />
-            </div>
-            <div class="newspage">
-                <div class="newspage_title">
-                    The movie "Dongbaek" is about to be released, and <br>
-                    Ko Yoon-seok, general director of CG using CINEMA 4D, attract attention.
-                </div>
-                <p class="newspage_p">
-                    Oct 19, 2021
-                </p>
-                <hr />
-                <p class="newspage_p">
-                    IMJ Foundation announced on the 19th that the movie "Dongbaek," which was produced by its director Ko Yoon-seok as general director of CG, will be released on the 21st.
-                </p>
-                <div class="newspage_desc">
-                    <p class="newspage_p">
-                        "Dongbaek" is a film about the Yeosu-Sun incident, which has been re-examined by the enactment of the "Yeosun Incident Special Act" in June. Acting actors such as senior actors Park Geun-hyung, Kim Bo-mi, and Jung Sun-il, including director Shin Joon-young, participated in the Berlin Film Festival earlier this year.
-                    </p>
-                    <p class="newspage_p">    
-                        In particular, 3D resolve animation was used to express the desperation and urgency of the Yeosun incident in 1948, and CG was also used in some scenes expressing emotions. Director Ko Yoon-seok, who carried out this work, also used the CINEMA4D (C4D) program as the main program for the first time in Korea to melt personal artistic sense.
-                    </p>
-                    <p class="newspage_p">
-                        According to IMJ, there are many parts in real movies where even unexpected scenes are expressed in CG.
-                    </p>
-                    <p class="newspage_p">
-                        Scenes that burn like ordinary hands, lightning skies, text modifications to banners, and building signboards were all created by director Ko Yoon-seok's CG work. In addition, director Ko Yoon-seok drew attention by completing all tasks in two months, ranging from modeling to texturing, rigging, lighting, tracking, landing, 2D and 3D synthesis, VFX such as water, fire, and explosion scenes, and CG shooting directives.
-                    </p>
-                    <p class="newspage_p">
-                        Director Ko Yoon-seok also participated in exhibitions such as BLIEND.GREAN (2016.01), Yongho Sang-bak (2019.05, Bit Woo-chi (2019.12), Gwanghwamun (2021.04), and Mobius (2020.02), as well as exhibitions of Shin Yoon-bok (220.02), DIA Project (2020.10), and Arirang Soil's song VR (2020.12).
-                    </p>
-                    <p class="newspage_p">
-                        Director Ko Yoon-seok said, "By using C4D programs, which were mainly used in advertisements or motion graphic videos, we expect this movie to have a positive impact on people using and learning C4D around the world."
-                    </p>
-                    <p id="newspage_sources">
-                        <i>Scraped from <a href="https://www.imjfoundation.com/news/%EA%B0%9C%EB%B4%89-%EC%95%9E%EB%91%94-%EC%98%81%ED%99%94-%E2%80%98%EB%8F%99%EB%B0%B1%E2%80%99%2C-cinema4d-%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%84%9D-cg-%EC%B4%9D%EA%B4%84-%EA%B0%90%EB%8F%85-%E2%80%98%EB%88%88%EA%B8%B8%E2%80%99">imjfoundation.com</a>.</i>
-                    </p>
-                    <br>
-                    <p onclick="back()" style="cursor: pointer; margin-top: 50px; font-weight: 700; color: grey;">
-                        <i>&#60; Back</i>
-                    </p>
-                </div>
-            </div>
-        </div>
+      </nav>
     </div>
-  <div>
-    <!-- Footer 영역 -->
-    <footer>
-      <div class="footer_info">© 2021 by Artc.art</div>
-      <a id="contact" href="#" style="float:right; margin-right: 50px; margin-top: -40px;">Contact Us</a> 
-    </footer>
-  </div>
-  <script>
-      function back() {
-        history.go(-1);
-      }
-  </script>
-  <script>
-    $(document).ready(function () {
-    $("#nav-icon4").click(function () {
-      $(this).toggleClass("open");
+    <div class="bodydefault">
+      <!-- 본문 내용 -->
+      <div class="Main_section">
+          <div class="mainvideo_section">
+              <div class="newspage_img">
+                  <img
+                      src="../../../src/image/artists/news_thumb/bliendgrean_1.jpg"
+                  />
+              </div>
+              <div class="newspage">
+                  <div class="newspage_title">
+                      The movie "Dongbaek" is about to be released, and <br>
+                      Ko Yoon-seok, general director of CG using CINEMA 4D, attract attention.
+                  </div>
+                  <p class="newspage_p">
+                      Oct 19, 2021
+                  </p>
+                  <hr />
+                  <p class="newspage_p">
+                      IMJ Foundation announced on the 19th that the movie "Dongbaek," which was produced by its director Ko Yoon-seok as general director of CG, will be released on the 21st.
+                  </p>
+                  <div class="newspage_desc">
+                      <p class="newspage_p">
+                          "Dongbaek" is a film about the Yeosu-Sun incident, which has been re-examined by the enactment of the "Yeosun Incident Special Act" in June. Acting actors such as senior actors Park Geun-hyung, Kim Bo-mi, and Jung Sun-il, including director Shin Joon-young, participated in the Berlin Film Festival earlier this year.
+                      </p>
+                      <p class="newspage_p">    
+                          In particular, 3D resolve animation was used to express the desperation and urgency of the Yeosun incident in 1948, and CG was also used in some scenes expressing emotions. Director Ko Yoon-seok, who carried out this work, also used the CINEMA4D (C4D) program as the main program for the first time in Korea to melt personal artistic sense.
+                      </p>
+                      <p class="newspage_p">
+                          According to IMJ, there are many parts in real movies where even unexpected scenes are expressed in CG.
+                      </p>
+                      <p class="newspage_p">
+                          Scenes that burn like ordinary hands, lightning skies, text modifications to banners, and building signboards were all created by director Ko Yoon-seok's CG work. In addition, director Ko Yoon-seok drew attention by completing all tasks in two months, ranging from modeling to texturing, rigging, lighting, tracking, landing, 2D and 3D synthesis, VFX such as water, fire, and explosion scenes, and CG shooting directives.
+                      </p>
+                      <p class="newspage_p">
+                          Director Ko Yoon-seok also participated in exhibitions such as BLIEND.GREAN (2016.01), Yongho Sang-bak (2019.05, Bit Woo-chi (2019.12), Gwanghwamun (2021.04), and Mobius (2020.02), as well as exhibitions of Shin Yoon-bok (220.02), DIA Project (2020.10), and Arirang Soil's song VR (2020.12).
+                      </p>
+                      <p class="newspage_p">
+                          Director Ko Yoon-seok said, "By using C4D programs, which were mainly used in advertisements or motion graphic videos, we expect this movie to have a positive impact on people using and learning C4D around the world."
+                      </p>
+                      <p id="newspage_sources">
+                          <i>Scraped from <a href="https://www.imjfoundation.com/news/%EA%B0%9C%EB%B4%89-%EC%95%9E%EB%91%94-%EC%98%81%ED%99%94-%E2%80%98%EB%8F%99%EB%B0%B1%E2%80%99%2C-cinema4d-%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B3%A0%EC%9C%A4%EC%84%9D-cg-%EC%B4%9D%EA%B4%84-%EA%B0%90%EB%8F%85-%E2%80%98%EB%88%88%EA%B8%B8%E2%80%99">imjfoundation.com</a>.</i>
+                      </p>
+                      <br>
+                      <p onclick="back()" style="cursor: pointer; margin-top: 50px; font-weight: 700; color: grey;">
+                          <i>&#60; Back</i>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <div>
+      <!-- Footer 영역 -->
+      <footer>
+        <div class="footer_info">© 2021 by Artc.art</div>
+        <a id="contact" href="#" style="float:right; margin-right: 50px; margin-top: -40px;">Contact Us</a> 
+      </footer>
+    </div>
+    <script>
+        function back() {
+          history.go(-1);
+        }
+    </script>
+    <script>
+      $(document).ready(function () {
+      $("#nav-icon4").click(function () {
+        $(this).toggleClass("open");
+        });
       });
-    });
-  </script>
-</body>
+    </script>
+  </body>
+</html>

@@ -1,154 +1,156 @@
 <!DOCTYPE html>
-<head>
-  <title>
-    Innocent victim - Artc.art
-  </title>
-  <link rel="apple-touch-icon" sizes="180x180" href="../../../src/image/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../../../src/image/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../../src/image/favicon-16x16.png">
-  <link rel="manifest" href="../../../src/image/site.webmanifest">
-  <link rel="mask-icon" href="../../../src/image/safari-pinned-tab.svg" color="#df1913">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="../../../src/css/Main.css" />
-  <link rel="stylesheet" href="../../../src/css/Video.css" />
-  <link rel="stylesheet" type="text/css"
-  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- 개발시 주석처리 필수-->
-  <script src="../../../src/js/Main.js"></script>
-</head>
-<body oncontextmenu="return false" onseletstart="return false">
-  <div class="header">
-    <nav>
-      <ul>
-        <li>
+<html lang="en">
+  <head>
+    <title>
+      Innocent victim - Artc.art
+    </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../src/image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../src/image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../src/image/favicon-16x16.png">
+    <link rel="manifest" href="../../../src/image/site.webmanifest">
+    <link rel="mask-icon" href="../../../src/image/safari-pinned-tab.svg" color="#df1913">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="../../../src/css/Main.css" />
+    <link rel="stylesheet" href="../../../src/css/Video.css" />
+    <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 개발시 주석처리 필수-->
+    <script src="../../../src/js/Main.js"></script>
+  </head>
+  <body oncontextmenu="return false" onseletstart="return false">
+    <div class="header">
+      <nav>
+        <ul>
+          <li>
+            <div>
+              <ul class="main-menu">
+                <li>
+                  <!-- 로고 영역 -->
+                  <a href="../../../index.html">
+                    <img
+                      src="../../../src/image/Logo.png"
+                      width="50px;"
+                      alt="IMJ Foundation"
+                    />
+                  </a>
+                </li>
+                <li id="nav-artist">
+                  <a href="../../../pages/videos/index.html">
+                    Artist
+                  </a>
+                  <ul class="sub-menu">
+                    <!-- 동영상 만든이 -->
+                    <a href="../../../pages/videos/1/index.html">
+                      <li>BLIEND.GREAN</li>
+                    </a>
+                    <a href="../../../pages/videos/2/index.html">
+                      <li>Liam</li>
+                    </a>
+                    <a href="../../../pages/videos/3/index.html">
+                      <li>Itdan</li>
+                    </a>
+                    <a href="../../../pages/videos/4/index.html">
+                      <li>HaJung Kim</li>
+                    </a>
+                  </ul>
+                </li>
+                <li id="nav-project">
+                  Project
+                  <ul class="sub-menu">
+                    <!-- 동영상 만든이 -->
+                    <a href="#">
+                      <li>Project 1</li>
+                    </a>
+                    <li>Project 2</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <label for="toggle">
+          <div id="nav-icon4">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+        <input type="checkbox" id="toggle"/>
+        <div id="mobile-menu">
           <div>
-            <ul class="main-menu">
+            <ul>
               <li>
-                <!-- 로고 영역 -->
-                <a href="../../../index.html">
-                  <img
-                    src="../../../src/image/Logo.png"
-                    width="50px;"
-                    alt="IMJ Foundation"
-                  />
-                </a>
-              </li>
-              <li id="nav-artist">
                 <a href="../../../pages/videos/index.html">
                   Artist
                 </a>
-                <ul class="sub-menu">
-                  <!-- 동영상 만든이 -->
-                  <a href="../../../pages/videos/1/index.html">
-                    <li>BLIEND.GREAN</li>
-                  </a>
-                  <a href="../../../pages/videos/2/index.html">
-                    <li>Liam</li>
-                  </a>
-                  <a href="../../../pages/videos/3/index.html">
-                    <li>Itdan</li>
-                  </a>
-                  <a href="../../../pages/videos/4/index.html">
-                    <li>HaJung Kim</li>
-                  </a>
-                </ul>
               </li>
-              <li id="nav-project">
-                Project
-                <ul class="sub-menu">
-                  <!-- 동영상 만든이 -->
-                  <a href="#">
-                    <li>Project 1</li>
-                  </a>
-                  <li>Project 2</li>
-                </ul>
+              <li>
+                <a href="#">
+                  Project
+                </a>
               </li>
             </ul>
           </div>
-        </li>
-      </ul>
-      <label for="toggle">
-        <div id="nav-icon4">
-          <span></span>
-          <span></span>
-          <span></span>
+          <a href="#" id="contact-mobile">
+            Contact us
+          </a>
         </div>
-      </label>
-      <input type="checkbox" id="toggle"/>
-      <div id="mobile-menu">
-        <div>
-          <ul>
-            <li>
-              <a href="../../../pages/videos/index.html">
-                Artist
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Project
-              </a>
-            </li>
-          </ul>
-        </div>
-        <a href="#" id="contact-mobile">
-          Contact us
-        </a>
+      </nav>
+    </div>
+    <div class="bodydefault">
+      <div class="Main_section">
+        <div class="mainvideo_section">
+          <video
+          width="100%"
+          height="512"
+          controls  loop controlsList="nodownload"
+          poster="../../../src/image/thumbs/ecoboxchelsea.png"
+          style="background: black; width:100%; height: 512;"
+          >
+          <source src="../../../src/videos/ecoboxchelsea.mp4" type="video/mp4">
+          사용중인 브라우저는 비디오 태그를 지원하지 않습니다.
+          </video>
+          <p class="title_name">Innocent victim</p>
+          <a href="../../../pages/videos/3/index.html">
+            <p class="title_maker">Itdan</p>
+          </a>
+          <div>
+            <hr class="video_hr" />
+              <p class="title_desc">
+                -
+              </p>
+            <hr class="video_hr" />
+          </div>
       </div>
-    </nav>
-  </div>
-  <div class="bodydefault">
-    <div class="Main_section">
-      <div class="mainvideo_section">
-        <video
-        width="100%"
-        height="512"
-        controls  loop controlsList="nodownload"
-        poster="../../../src/image/thumbs/ecoboxchelsea.png"
-        style="background: black; width:100%; height: 512;"
-        >
-        <source src="../../../src/videos/ecoboxchelsea.mp4" type="video/mp4">
-        사용중인 브라우저는 비디오 태그를 지원하지 않습니다.
-        </video>
-        <p class="title_name">Innocent victim</p>
-        <a href="../../../pages/videos/3/index.html">
-          <p class="title_maker">Itdan</p>
-        </a>
-        <div>
-          <hr class="video_hr" />
-            <p class="title_desc">
-              -
-            </p>
-          <hr class="video_hr" />
-        </div>
-    </div>
-  <div>
-  
-  <script src="https://utteranc.es/client.js"
-    repo="IMJGyeongMin/imj"
-    issue-term="pathname"
-    theme="preferred-color-scheme"
-    crossorigin="anonymous"
-    async>
-  </script>
+    <div>
+    
+    <script src="https://utteranc.es/client.js"
+      repo="IMJGyeongMin/imj"
+      issue-term="pathname"
+      theme="preferred-color-scheme"
+      crossorigin="anonymous"
+      async>
+    </script>
 
-  <div class="mainvideo_section">
-    <div class="other_works">
-      <p class="title_works">Other Works</p>
+    <div class="mainvideo_section">
+      <div class="other_works">
+        <p class="title_works">Other Works</p>
+      </div>
     </div>
-  </div>
 
-  <footer>
-    <div class="footer_info">© 2021 by Artc.art</div>
-    <a id="contact" href="#" style="float:right; margin-right: 50px; margin-top: -40px;">Contact Us</a> 
-  </footer>
-  <script>
-    $(document).ready(function () {
-    $("#nav-icon4").click(function () {
-      $(this).toggleClass("open");
+    <footer>
+      <div class="footer_info">© 2021 by Artc.art</div>
+      <a id="contact" href="#" style="float:right; margin-right: 50px; margin-top: -40px;">Contact Us</a> 
+    </footer>
+    <script>
+      $(document).ready(function () {
+      $("#nav-icon4").click(function () {
+        $(this).toggleClass("open");
+        });
       });
-    });
-  </script>
-</body>
+    </script>
+  </body>
+</html>
