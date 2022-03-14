@@ -1,3 +1,4 @@
+/*
 var keydownCtrl = 0;
 var keydownShift = 0;
 
@@ -58,3 +59,4 @@ const menu = document.querySelector("#mobile-menu");
 toggleBtn.addEventListener("click", () => {
   menu.classList.toggle("active");
 });
+*/
