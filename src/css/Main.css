@@ -18,6 +18,7 @@ html {
 
 body {
   margin: 0;
+  height: 100%;
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -122,6 +123,7 @@ p {
 
 .bodydefault {
   padding-top: 120px;
+  min-height: 100vh;
 }
 
 .main {
